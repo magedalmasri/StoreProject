@@ -1,6 +1,11 @@
 @extends('layouts.admin')
 @section('content')
-    <div class="py-4">
+<div class="py-4">
+    <a href="{{url('categories/create')}}" >
+      <input type="submit" value="اضف صنف جديد" class="btn btn-success">
+      </a>
+  </div>
+    <div class="py-10">
         <table class="table">
             <thead>
                 <tr>

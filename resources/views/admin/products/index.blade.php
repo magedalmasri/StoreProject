@@ -1,6 +1,11 @@
 @extends('layouts.admin')
 @section('content')
-    <div class="py-4">
+<div class="py-2">
+    <a href="{{url('products/create')}}" >
+      <input type="submit" value="اضف منتج جديد" class="btn btn-success">
+      </a>
+  </div>
+    <div class="py-1">
         <table class="table">
             <thead>
                 <tr>
